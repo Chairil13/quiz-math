@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CHAIRIL ALI</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="apple-touch-icon" href="https://assets.codepen.io/2990/mathquiz.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Math Quiz by Chairil Ali</h1>
+      <h1>NIM : 200102121</h1>
+      <h1>UAS Pemrograman Game Mobile</h1>
+
+      <table class="quiz"></table>
+
+      <button class="restart">↺</button>
+
+      <div class="generators">
+        <h1>Pilih Mode :</h1>
+        <br />
+
+        <div class="generators-row">
+          <h3><span class="icon">+</span>PERTAMBAHAN</h3>
+          <button data-qid="a1-5" data-operator="+" data-min="1" data-max="5">1-5</button>
+          <button data-qid="a1-10" data-operator="+" data-min="1" data-max="10">1-10</button>
+          <button data-qid="a1-50" data-operator="+" data-min="1" data-max="50">1-50</button>
+          <button data-qid="a1-100" data-operator="+" data-min="1" data-max="100">1-100</button>
+        </div>
+        <div class="generators-row">
+          <h3><span class="icon">-</span>PENGURANGAN</h3>
+          <button data-qid="s1-5" data-operator="-" data-min="1" data-max="5">1-5</button>
+          <button data-qid="s1-10" data-operator="-" data-min="1" data-max="10">1-10</button>
+          <button data-qid="s1-50" data-operator="-" data-min="1" data-max="50">1-50</button>
+          <button data-qid="s1-100" data-operator="-" data-min="1" data-max="100">1-100</button>
+        </div>
+        <div class="generators-row">
+          <h3><span class="icon">×</span>PERKALIAN</h3>
+          <button data-qid="m1-4" data-operator="*" data-min="1" data-max="4">1-4</button>
+          <button data-qid="m1-6" data-operator="*" data-min="1" data-max="6">1-6</button>
+          <button data-qid="m1-8" data-operator="*" data-min="1" data-max="8">1-8</button>
+          <button data-qid="m1-10" data-operator="*" data-min="1" data-max="10">1-10</button>
+          <span style="flex-basis: 100%"></span>
+          <button data-qid="m2x" data-operator="*" data-min="1" data-max="10" data-constant="2">2</button>
+          <button data-qid="m3x" data-operator="*" data-min="1" data-max="10" data-constant="3">3</button>
+          <button data-qid="m4x" data-operator="*" data-min="1" data-max="10" data-constant="4">4</button>
+          <button data-qid="m5x" data-operator="*" data-min="1" data-max="10" data-constant="5">5</button>
+          <button data-qid="m6x" data-operator="*" data-min="1" data-max="10" data-constant="6">6</button>
+          <button data-qid="m7x" data-operator="*" data-min="1" data-max="10" data-constant="7">7</button>
+          <button data-qid="m8x" data-operator="*" data-min="1" data-max="10" data-constant="8">8</button>
+          <button data-qid="m9x" data-operator="*" data-min="1" data-max="10" data-constant="9">9</button>
+          <button data-qid="m9x" data-operator="*" data-min="1" data-max="10" data-constant="10">10</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
